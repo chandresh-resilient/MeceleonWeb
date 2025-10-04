@@ -1,0 +1,44 @@
+.section {
+  width: 100%;
+}
+
+.section[data-background='muted'] {
+  background: linear-gradient(135deg, rgba(29, 151, 108, 0.12), rgba(45, 121, 240, 0.08));
+  border-radius: 2rem;
+  padding: 3rem 1.5rem;
+}
+
+.section[data-background='accent'] {
+  background: linear-gradient(135deg, rgba(250, 130, 49, 0.12), rgba(245, 59, 87, 0.08));
+  border-radius: 2rem;
+  padding: 3rem 1.5rem;
+}
+
+.inner {
+  margin: 0 auto;
+  width: min(1100px, 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 780px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #475569;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
