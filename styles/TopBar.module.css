@@ -1,0 +1,41 @@
+.topBar {
+  background: #0f172a;
+  color: #f8fafc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.95rem;
+}
+
+.message {
+  font-weight: 500;
+}
+
+.meta {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.phone {
+  color: inherit;
+  font-weight: 600;
+}
+
+.link {
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+@media (max-width: 720px) {
+  .topBar {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .meta {
+    gap: 0.75rem;
+  }
+}

@@ -1,0 +1,54 @@
+.footer {
+  background: #0b1220;
+  color: #e2e8f0;
+  padding: 3rem 1.5rem 2rem;
+  margin-top: 4rem;
+}
+
+.columns {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-bottom: 2rem;
+}
+
+.column h3 {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+}
+
+.links {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.links a {
+  color: #cbd5f5;
+  font-weight: 500;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #22c55e;
+  color: #082e11;
+  padding: 0.5rem 1.2rem;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.bottom {
+  border-top: 1px solid rgba(226, 232, 240, 0.1);
+  padding-top: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
