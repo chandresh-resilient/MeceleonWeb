@@ -5,6 +5,11 @@ import { FeatureGrid } from '../../components/FeatureGrid';
 
 const categories = [
   {
+    title: 'Hydraulic Equipment Range',
+    description: 'Explore 25+ product families covering hydraulic power, bolting, filtration, and maintenance tooling.',
+    link: { href: '/products/range', label: 'View Range Overview' }
+  },
+  {
     title: 'Power Team (Hydraulics)',
     description: 'Pumps, cylinders, presses, and accessories engineered for demanding operations.',
     link: { href: '/products/power-team', label: 'Explore Power Team' }

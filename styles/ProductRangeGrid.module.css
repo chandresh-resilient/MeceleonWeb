@@ -1,0 +1,64 @@
+.grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 1.75rem;
+  box-shadow: 0 22px 45px rgba(15, 23, 42, 0.08);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.header p {
+  margin: 0.5rem 0 0;
+  color: #475569;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.list li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.itemName {
+  font-weight: 600;
+}
+
+.list p {
+  margin: 0;
+  color: #4b5563;
+  line-height: 1.45;
+}
+
+.link {
+  margin-top: auto;
+  align-self: flex-start;
+  font-weight: 600;
+  color: #2563eb;
+}
+
+@media (max-width: 640px) {
+  .card {
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+  }
+}
