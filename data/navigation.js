@@ -4,6 +4,7 @@ export const navLinks = [
     href: '/products',
     label: 'Products',
     children: [
+      { href: '/products/range', label: 'Hydraulic Equipment Range' },
       { href: '/products/power-team', label: 'Power Team' },
       { href: '/products/bolting-systems', label: 'Bolting Systems' },
       { href: '/products/pullers', label: 'Pullers' }
